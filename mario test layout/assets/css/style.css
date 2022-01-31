@@ -1,0 +1,135 @@
+*{
+	margin: 0 auto;
+    font-family: sans-serif;
+}
+header{
+	width: 100%;
+	height: 55px;
+	background-color: #f63232;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+#heading h1{
+	width: 120px;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	border-color: white;
+	border-radius: 50px;
+	border: 4px solid #fff;
+}
+#logo{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/banner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+#sub-logo h2{
+	background-color: #feb614;
+	color: white;
+	width: 42%;
+	height: 275px;
+	float: left;
+	margin-top: 155px;
+	padding: 30px 50px;
+	box-sizing: border-box;
+	font-size: 90px;
+}
+#menu-bar ul{
+	background-color: #f4f4f4;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 25px 20px 280px;
+    font-size: 20px;
+}
+#menu-bar ul li{
+	list-style: none;
+	float: left;
+	margin-right: 200px;
+	color: #4b4b4b;
+	font-family: monospace;
+}
+#menu-bar ul li:nth-child(4){
+	margin-right: 0px;
+}
+#menu-bar ul li:nth-child(1){
+	color: #f63232;
+}
+#menu-bar{
+	margin-bottom: 100px;
+}
+#introduction{
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.container{
+	max-width: 70%;
+}
+#introduction h1{
+	color: #f63232;
+    font-size: 35px;
+}
+#introduction h3{
+	padding-top: 30px;
+    color: #4b4b4b;
+}
+#introduction p{
+    color: #4b4b4b;
+}
+#introduction-image img:nth-child(1){
+	float: left;
+	width: 40%;
+	padding-right: 15%;
+}
+#introduction-image img:nth-child(2){
+	float: left;
+	width: 40%;
+	margin-bottom: 100px;
+}
+#contact-info{
+	text-align: center;
+    background-color: #f4f4f4;
+}
+#contact-info h2{
+	color: #4b4b4b;
+	font-size: 35px;
+	padding-top: 30px;
+    padding-bottom: 10px;
+}
+#contact-info p{
+	color: #4b4b4b;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+#contact-info button{
+	background-color: white;
+    border: none;
+    height: 50px;
+    width: 20%;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #4b4b4b;
+    margin-bottom: 60px;
+}
+#footer{
+	height: 50px;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+    padding-top: 17px;
+}
+
+@media (max-width: 1550px){
+	#sub-logo h2{
+		font-size: 70px;
+	}
+}

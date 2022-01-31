@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    font-family: 'Asap', sans-serif;
+}
+:root{
+	--yellow: #f6d200;
+	--body-color: #ededed;
+}
+header {
+    height: 300px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#movie-heading h2 {
+    font-size: 44px;
+    font-weight: 100;
+}
+#movie-heading ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+#movie-heading li{
+    list-style-type: none;
+    margin-right: 10px;
+    color: var(--yellow);
+    font-style: italic;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: var(--yellow);
+    padding: 10px 0px;
+}
+#main-movie-section{
+	display: flex;
+	padding: 30px;
+	justify-content: space-between;
+}
+#main-movie-section article{
+	flex-basis: 70%;
+}
+#main-movie-section aside{
+	flex-basis: 26%;
+}
